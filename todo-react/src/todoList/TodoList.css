@@ -1,0 +1,61 @@
+/* TodoList.css */
+.todo-list {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+nav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
